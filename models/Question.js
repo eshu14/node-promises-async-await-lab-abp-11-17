@@ -36,11 +36,11 @@ class Question {
 
         return question
       }, 1500)));
-    
+
   }
 
   // FIXME: Implement async / await
-  static Print(id){
+  async static Print(id){
     const question = Question.Find(id)
 
     console.log("\n")
